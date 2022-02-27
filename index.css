@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    position: relative;
+    display: grid;
+}
+.calculator .value{
+    grid-column: span 4;
+    height: 00px;
+    text-align: right;
+    border: 5px solid #b7d5ee;
+    padding: 15px;
+    font-size: 18px;
+}
+.calculator span{
+    display: grid;
+    width: 60xp;
+    height: 60xp;
+    color: black;
+    background: white(250, 250, 149);
+    place-items: center;
+    border: 5px solid #b7d5ee; 
+}
+.calculator span:active{
+    background: black;
+    color: white;
+}
